@@ -20,7 +20,16 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Insertar datos de prueba
+5. clonar el archivo __.env.template__ y renombrar la copia a  __.env__
+
+6. llenar las variables de entorno definidas en el __.env__
+
+7. ejecutar la aplicacion en dev:
+```
+yarn start:dev
+```
+
+8. Insertar datos de prueba
 ```
 http://localhost:3000/api/v2/seed
 ```
